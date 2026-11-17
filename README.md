@@ -40,6 +40,4 @@ O arquivo será criado em `build/app/outputs/flutter-apk/app-release.apk`.
 
 A busca usa `listaCidades?city=...` e a previsão usa `cidade/{id}/previsao.xml`, conforme a [documentação dos Serviços Web do CPTEC/INPE](https://servicos.cptec.inpe.br/XML/). O identificador recebido na busca é mantido para consultar a previsão. O XML é interpretado campo a campo, aceitando campos opcionais ausentes. A aplicação salva apenas o identificador, nome e UF da última cidade escolhida; previsões são consultadas novamente ao abrir o app ou atualizar.
 
-## Capturas de tela
 
-Adicionar capturas da tela inicial, busca de cidades, previsão diária e gráfico após executar o aplicativo em um dispositivo ou emulador.
